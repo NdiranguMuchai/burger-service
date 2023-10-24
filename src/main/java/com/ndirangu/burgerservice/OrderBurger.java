@@ -3,7 +3,7 @@ package com.ndirangu.burgerservice;
 public class OrderBurger {
 
     public static void main(String[] args) {
-        Burger marysBurger =
+        Burger suzzieBurger =
                 new Burger.Builder()
                         .buns("regular")
                         .patty("chicken", 1)
@@ -23,7 +23,7 @@ public class OrderBurger {
                 .build();
 
 
-        System.out.println(marysBurger);
+        System.out.println(suzzieBurger);
         System.out.println(kimothoBurger);
     }
 }
